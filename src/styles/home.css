@@ -1,0 +1,101 @@
+.background {
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  left: 0px;
+  top: 0px;
+  background: url("../assets/sliderbackground.jpg");
+  z-index: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-links {
+  position: absolute;
+  top: 42px;
+  font-family: "Lato";
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 1.33333px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+}
+
+.brand-name {
+  width: 148px;
+  height: 24px;
+  margin-left: 62px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 60px;
+}
+
+.links {
+  margin-top: 3px;
+  margin-left: 83px;
+  top: 55px;
+  width: 68px;
+  height: 18px;
+  top: 45px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  flex-direction: row;
+}
+
+.nav-icons {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  left: 148px;
+  width: 20px;
+  height: 20px;
+  margin-right: 50px;
+}
+
+.enquiry-button {
+  position: relative;
+  width: 173px;
+  height: 52px;
+  margin-left: 190px;
+  top: -15px;
+}
+
+.details-box {
+  position: absolute;
+  font-family: "Lato";
+  font-style: normal;
+  color: #2f290b;
+  width: 100%;
+  height: 200px;
+  left: 0px;
+  top: 550px;
+  background: #fff6c8;
+  display: flex;
+}
+
+.numbers {
+  position: relative;
+  width: 88px;
+  height: 60px;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 60px;
+  margin-left: 210px;
+  margin-top: 40px;
+}
+
+.after-numbers {
+  position: relative;
+  top: 100px;
+  width: 163px;
+  height: 22px;
+  left: 188px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
